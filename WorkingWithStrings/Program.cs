@@ -35,22 +35,22 @@ namespace WorkingWithStrings
                 myString.Trim().Length);
             */
 
-            /*
+            
             string myString = "";
             for (int i = 0; i < 100; i++)
             {
                 myString += "--" + i.ToString();
             }
-            */
-
             
+
+            /*
             StringBuilder myString = new StringBuilder();
             for (int i = 0; i < 100; i++)
             {
                 myString.Append("--");
                 myString.Append(i);
             }
-            
+            */
 
             Console.WriteLine(myString);
             Console.ReadLine();
